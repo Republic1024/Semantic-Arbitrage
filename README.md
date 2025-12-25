@@ -89,10 +89,35 @@ The project is structured into modular, mathematically grounded stages:
 ![5154931dff9d3244efd707430fc7204c](./assets/5154931dff9d3244efd707430fc7204c.png)
 
 ### 3. Performance Attribution
+![ee482edcc44cfb2f730002a3b1601438](./assets/ee482edcc44cfb2f730002a3b1601438.png)
 
-### ![attribution](./assets/attribution-1766676184251-5.svg)4. Why 4 Days
+### Why 4 Days
+
+#### 1. The "Sweet Spot": 4-Day Structure
+
+At the 4-day horizon, the sentiment signal is fresh and potent.
+
+- **Signal Purity**: The spread between the **Top Decile (Winners)** and **Bottom Decile (Losers)** is maximized.
+- **Validation**: This confirms that the market prices in the "Analyst Sentiment" shock efficiently within the first 96 hours.
+- **The "Shoulder"**: Note the robust performance in Decile 9 (90-80%), offering high returns without the overcrowding risk of Decile 10.
 
 ![e6f9c9e5f02cc3371a78accdd8272ac7](./assets/e6f9c9e5f02cc3371a78accdd8272ac7.png)
+
+#### 2. The "Beta Trap": 7-Day Structure
+
+At the 7-day horizon, the absolute returns (bar heights) appear higher, but this is an **illusion**.
+
+- **Beta Drift**: Notice that the **Bottom Decile (Blue)** also rallied significantly. When "junk stocks" rise alongside "quality stocks," the strategy is no longer harvesting sentiment Alpha; it is simply riding the market Beta (general market uplift).
+- **Spread Collapse**: The distinct advantage of the Top Decile evaporates. Holding past Day 4 exposes the portfolio to mean reversion and unnecessary market noise.
+
+![117eaa3b68fa65794b13e67ad9140b55](./assets/117eaa3b68fa65794b13e67ad9140b55.png)
+
+#### 3. The Verdict: Capital Velocity over Vanity Metrics
+
+We choose the **4-Day Horizon** to maximize the **Information Ratio**.
+
+- **Alpha Decay**: As shown below, the **Alpha Spread (Green)** is healthy at Day 4 (+0.56%) but collapses to near zero (+0.08%) by Day 7.
+- **Opportunity Cost**: By exiting at Day 4, we free up capital to redeploy into fresh signals, compounding returns faster than holding stale positions for diminishing marginal gains.
 
 ![53a59ac46510fc7062e16a8dc25dcb7f](./assets/53a59ac46510fc7062e16a8dc25dcb7f.png)
 
