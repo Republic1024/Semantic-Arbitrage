@@ -1,0 +1,21 @@
+# 1. 忽略核心数据文件夹 (那个超大的 CSV 就在这里面)
+massive-stock-news-analysis-db-for-nlpbacktests/*.csv
+data/
+
+# 2. 忽略所有常见的巨大数据文件 (防止手滑)
+*.xlsx
+*.zip
+*.tar.gz
+
+# 3. 忽略 Jupyter Notebook 的缓存节点 (这玩意儿贼烦，一定要屏蔽)
+.ipynb_checkpoints/
+lib/
+lib/
+# 4. 忽略 Python 编译缓存
+__pycache__/
+*.py[cod]
+
+# 5. 忽略 IDE 配置 (你是做项目，不是分享你的编辑器设置)
+.vscode/
+.idea/
+.DS_Store
