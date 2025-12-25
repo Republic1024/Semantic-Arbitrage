@@ -19,42 +19,23 @@ Unlike traditional sentiment analysis relying on simple lexicons (e.g., TextBlob
 *Out-of-sample backtesting results on the "Magnificent Seven" & US Tech Universe.*
 
 | **Metric**       | **Strategy (AlphaQuest)** | **Benchmark (Sector Avg)** | **Delta**         |
-| ---------------- | ------------------------- | -------------------------- | ----------------- |
+| - | - | -- | -- |
 | **Total Return** | **728.20%**               | 387.82%                    | **+340.38%**      |
 | **Active Ratio** | **17.40%**                | 100%                       | *High Efficiency* |
 | **Pure Alpha**   | **1.71x**                 | 1.0x                       | *Skill > Luck*    |
 | **Max Drawdown** | **-27.96%**               | -31.84%                    | *Risk Mitigation* |
 
 
----
+
 
 ## 🧠 The "Sniper" Philosophy: Why It Works
 
-Most sentiment strategies fail because they over-trade. Our analysis proves that Alpha is not a continuous stream, but a sparse series of "shocks."
+- Most sentiment strategies fail because they over-trade. Our analysis proves that Alpha is not a continuous stream, but a sparse series of "shocks."
+  1. **The Efficiency Paradox (Time)**: Alpha decays rapidly. Our Term Structure Analysis reveals that the Information Ratio is maximized at **Day 4**. Holding beyond this introduces "Beta Drift" and mean reversion.
+  2. **The "Shoulder" Alpha (Cross-Section)**: Contrary to intuition, the extreme **Top 10%** sentiment bucket often suffers from overcrowding. The "Sweet Spot" lies in the **90-80% Decile** (Secondary Conviction).
+  3. **Asymmetric Payoff**: The strategy is active only **17.4%** of the time. It behaves like a sniper—waiting for high-conviction setups—rather than a machine gunner.
 
-### 1. The Efficiency Paradox (Time)
 
-Alpha decays rapidly. Our Term Structure Analysis reveals a critical inflection point:
-
-- **Day 1-4:** The market digests the news. Information Ratio is maximized.
-- **Day 5-8:** The signal fades. Returns become dominated by Beta (market noise).
-- **Result:** A **4-Day Holding Period** is strictly enforced. Holding to Day 7 invites mean reversion and degrades the Sharpe Ratio.
-
-### 2. The "Shoulder" Alpha (Cross-Section)
-
-Contrary to intuition, the extreme **Top 10% (Decile 10)** sentiment bucket often suffers from "Overcrowding" and "Stampedes."
-
-- **The Sweet Spot:** The most consistent risk-adjusted returns are found in the **90-80% Decile** (Secondary Conviction). This strategy targets these "Shoulder" zones to avoid liquidity traps while capturing momentum.
-
-### 3. Asymmetric Payoff
-
-The strategy behaves like a Sniper, not a Machine Gunner:
-
-- **Active Ratio:** 17.4% (Passively tracks benchmark 82.6% of the time).
-- **Win Rate:** 53.8% (Conservative).
-- **Payoff:** Massive convexity. When the signal validates, the upside capture significantly outweighs the downside.
-
----
 
 ## 🛠️ Research Pipeline
 
@@ -66,7 +47,7 @@ The project is structured into modular, mathematically grounded stages:
 4.  **Signal Visualization**: Temporal Heatmaps, Z-Score Anomaly Detection, and "Confidence Chain" Mosaics.
 5.  **Vectorized Backtesting**: A high-performance simulation engine implementing the **Active Overlay Strategy**.
 
----
+
 
 ## 📊 Visual Evidence
 
@@ -75,7 +56,7 @@ The project is structured into modular, mathematically grounded stages:
 *Proof that the edge vanishes after Day 4. The spread (Green) collapses, turning negative by Day 8.*
 
 | **Holding Period** | **Alpha Spread (Long - Short)** | **Verdict**        |
-| ------------------ | ------------------------------- | ------------------ |
+|  | - |  |
 | **Day 4 (Peak)**   | **+0.56%**                      | ✅ **Optimal Exit** |
 | **Day 7 (Lag)**    | +0.08%                          | ⚠️ Beta Drift       |
 | **Day 8 (Loss)**   | -0.41%                          | ❌ Mean Reversion   |
