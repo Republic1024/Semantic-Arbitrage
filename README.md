@@ -10,7 +10,7 @@ This repository hosts a full-stack quantitative research pipeline that integrate
 
 Unlike traditional sentiment analysis relying on simple lexicons (e.g., TextBlob), this study employs **FinBERT** (a Transformer-based LLM) to capture nuanced semantic signals. We rigorously test the predictive power of these signals on the "Magnificent Seven" and other large-cap U.S. technology stocks.
 
-![Fig 7 - Cumulative Equity Curve](./assets/Fig 7 - Cumulative Equity Curve-1766674352540-2.svg)
+![Fig 7 - Cumulative Equity Curve](./assets/Fig 7 - Cumulative Equity Curve.svg)
 
 ### 🏆 Key Performance Indicators (2020-2025)
 
@@ -49,6 +49,7 @@ The project is structured into modular, mathematically grounded stages:
 
 ### 1. The Cumulative Equity Curve
 *The strategy (Red) vs. Benchmark (Gray). Note the "Alpha Explosion" post-2020.*
+
 ![Fig 7 - Cumulative Equity Curve](./assets/Fig 7 - Cumulative Equity Curve.svg)
 
 ### 2. Performance Attribution (The "Report Card")
