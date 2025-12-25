@@ -2,7 +2,9 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)[![PyTorch](https://img.shields.io/badge/PyTorch-GPU%20Accelerated-ee4c2c.svg)](https://pytorch.org/)[![Model](https://img.shields.io/badge/Model-FinBERT-yellow.svg)](https://huggingface.co/ProsusAI/finbert)[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> **Project AlphaQuest**: A Multi-Scale NLP–Finance Integration Study on Large-Cap U.S. Equities.
+> A Multi-Scale NLP–Finance Integration Study on Large-Cap U.S. Equities.
+
+Dataset: https://www.kaggle.com/datasets/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests
 
 ## 📈 Executive Summary
 
