@@ -10,7 +10,7 @@ This repository hosts a full-stack quantitative research pipeline that integrate
 
 Unlike traditional sentiment analysis relying on simple lexicons (e.g., TextBlob), this study employs **FinBERT** (a Transformer-based LLM) to capture nuanced semantic signals. We rigorously test the predictive power of these signals on the "Magnificent Seven" and other large-cap U.S. technology stocks.
 
-![Fig 7 - Cumulative Equity Curve](./assets/Fig 7 - Cumulative Equity Curve-1766675951822-3.svg)
+![equity_curve](./assets/equity_curve-1766676174016-1.svg)
 
 ### 🏆 Key Performance Indicators (2020-2025)
 
@@ -50,12 +50,12 @@ The project is structured into modular, mathematically grounded stages:
 ### 1. The Cumulative Equity Curve
 *The strategy (Red) vs. Benchmark (Gray). Note the "Alpha Explosion" post-2020.*
 
-![Fig 7 - Cumulative Equity Curve](./assets/Fig 7 - Cumulative Equity Curve-1766675957824-5.svg)
+![equity_curve](./assets/equity_curve-1766676179163-3.svg)
 
 ### 2. Performance Attribution (The "Report Card")
 *Deconstructing the returns into Beta (Market) and Pure Alpha (Skill).*
 
-![Fig 8 - Strategic Performance Attribution](./assets/Fig 8 - Strategic Performance Attribution-1766675962796-7.svg)
+![attribution](./assets/attribution-1766676184251-5.svg)
 
 ### 3. Signal Decay Analysis
 *Why we exit at Day 4: The Alpha Spread (Green) collapses and turns negative by Day 8.*
